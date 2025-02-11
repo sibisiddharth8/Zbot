@@ -1,5 +1,5 @@
 const api = {
-  endpoint: 'http://localhost:5000' // Change this URL when hosting backend separately
+  endpoint: import.meta.env.VITE_API_ENDPOINT
 };
 
 export default api;
