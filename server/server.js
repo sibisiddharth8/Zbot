@@ -12,7 +12,12 @@ connectDB();
 
 // Middleware
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: "*", // Allow all origins (for testing)
+  methods: "GET,POST,PUT,DELETE",
+  allowedHeaders: "Content-Type,Authorization"
+}));
+
 
 // Routes
 app.use('/api/auth', require('./routes/auth'));
