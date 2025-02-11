@@ -74,7 +74,7 @@ const Home = () => {
             Revolutionize Your Conversations
           </h2>
           <p className="text-sm sm:text-base text-center max-w-2xl mb-8">
-            Gemini Chatbot uses advanced AI to generate responses based on context,
+            Zbot uses advanced AI to generate responses based on context,
             offering you a seamless chat experience. Sign in now to start chatting, or register to join our community.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
