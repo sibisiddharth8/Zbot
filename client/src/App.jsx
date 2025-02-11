@@ -5,7 +5,6 @@ import Register from './components/Auth/Register';
 import Home from './pages/Home';
 import Chat from './pages/Chat';
 import Navbar from './components/Layout/Navbar';
-import Footer from './components/Layout/Footer';
 
 const App = () => {
   return (
@@ -20,7 +19,6 @@ const App = () => {
             <Route path="/chat/:id" element={<Chat />} />
           </Routes>
         </div>
-        
       </div>
     </Router>
   );
